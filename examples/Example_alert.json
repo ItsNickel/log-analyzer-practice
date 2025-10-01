@@ -1,0 +1,16 @@
+[
+  {
+    "rule": "suspicious_user_agent",
+    "ip": "203.0.113.9",
+    "agent": "sqlmap/1.6",
+    "sample": "203.0.113.9 ...",
+    "log_line_number": 8
+  },
+  {
+    "rule": "sqli_pattern",
+    "ip": "203.0.113.9",
+    "path": "/' UNION SELECT username,password FROM users --",
+    "sample": "...",
+    "log_line_number": 10
+  }
+]
